@@ -1,0 +1,38 @@
+# Dependencies (Kabhi push nahi hoti)
+node_modules/
+.pnpm-store/
+.npm/
+
+# Environment variables & Secret Keys
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Build & Output files
+dist/
+build/
+out/
+*.tgz
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# OS & Editor junk files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Temporary & Testing files
+coverage/
+.nyc_output/
+.tmp/
